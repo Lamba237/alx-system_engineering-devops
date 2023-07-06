@@ -1,1 +1,2 @@
-The effective username is: $(whoami)
+#!/bin/bash
+echo "The effective username is: $(whoami)"
