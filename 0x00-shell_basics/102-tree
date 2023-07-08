@@ -1,2 +1,2 @@
 #!/bin/bash
-mkkdir -p welcome/to/school
+mkkdir -p welcome/{to/{school},}
