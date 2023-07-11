@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u
+chmod -R +X
