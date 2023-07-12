@@ -1,2 +1,2 @@
 #!/bin/bash
-env POWER, DIVIDE
+env POWER |env  DIVIDE
