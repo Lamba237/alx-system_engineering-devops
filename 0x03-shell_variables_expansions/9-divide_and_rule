@@ -1,2 +1,2 @@
 #!/bin/bash
-env POWER |env  DIVIDE
+echo $((POWER/DIVIDE))
