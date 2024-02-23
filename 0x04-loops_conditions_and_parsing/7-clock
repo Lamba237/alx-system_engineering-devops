@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Program that display the time in hours and minutes
+
+Hours=0
+while [ $Hours -le 12 ];
+do
+echo "Hour $Hours"
+
+min=0
+while [ $min -le 59 ];
+do
+	echo $min
+((min++))
+done
+((Hours++))
+done
