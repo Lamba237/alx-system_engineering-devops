@@ -5,7 +5,7 @@
 #I am invincible!!! when receiving a SIGTERM signal
 
 on_sigterm() {
-	echo "I am invincible!!!"
+	echo "Killed"
 	exit 0
 }
 
