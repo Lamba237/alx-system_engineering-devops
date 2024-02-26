@@ -5,7 +5,7 @@
 #Where only the part of the name after the first dash is displayed
 
 for file in *; do
-	if [[ "$file" == .* ]]; then
+	if [[ ! "$file" == .* ]]; then
 
 		file_name="${file#*-}"
 		echo "file_name"
