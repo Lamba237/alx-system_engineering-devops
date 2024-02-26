@@ -5,14 +5,17 @@ var="school"
 if [[ -e $var ]];
 then
 	echo "$var file exists"
-	if [[ ! -s $var ]];
+	if [[ -s $var ]];
 	then
-		echo "$var file is empty"
-	elif [[ -s $var ]];
-	then
-		echo "$var file is not empty"
+		echo "$var is not empty"
 	else
+		echo "$var is empty"
+	fi
+	if [[ -f $var ]];
+	then
 		echo "$var is a regular file"
+	else
+		echo ""
 	fi
 else
 	echo "$var file does not exist"
