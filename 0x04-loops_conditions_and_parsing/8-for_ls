@@ -7,7 +7,6 @@
 for file in *; do
 	if [[ ! "$file" == .* ]]; then
 
-		file_name="${file#*-}"
-		echo "file_name"
+		echo "${file#*-}"
 	fi
 done
