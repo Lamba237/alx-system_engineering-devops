@@ -8,4 +8,4 @@ fi
 
 arg1=$1
 
-ping -c 5 $arg1
+ping -c 5 "$arg1"
