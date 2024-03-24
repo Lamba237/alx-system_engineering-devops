@@ -1,2 +1,34 @@
 https://imgur.com/a/GCuNjEk
-https://drive.google.com/file/d/1Lor6ljyLCwTU6z_jIqpIyNKPPqp8PuhY/view?usp=sharing
+
+Some specifics about this infrastructure:
+
+1) What is a server:
+A server is a piece of computer Hardware that provides functionality for other programs or devices
+
+2) What is the role of the domain name:
+They are easy to remeber addresses use to access resources on the internet
+
+3) What type of DNS record www is in www.foobar.com:
+Address record (A record)
+
+4) What is the role of the web server:
+It's role is to recieve HTTP request and respond with an HTTP respond by sending a web page.
+
+5) What is the role of the application server:
+It provides access to business logic that can be used by client application program.
+
+6) What is the role of the database:
+It's role is to store, manipulate and retrieve data that is stored electronically on a computer system.
+
+7) What is the server using to communicate with the computer of the user requesting the website:
+It make use of Hypertext transfer Protocols (HTTP)
+
+Explain what the issues are with this infrastructure
+1) SPOF (single point of failure):
+With this infrastructure, if a device or the sever in the network fails, the whole network would be loss reason being that, there's no standby server incase of an SPOF
+
+2) Downtime when maintenance needed:
+With this type of infrastructure, when an update needs to be performed, the whole server needs to be restarted which also has an effect on ther performance of the network
+
+3) Cannot scale if too much incoming traffic:
+Since we only have one server that's recieving incoming traffic, it would be difficult to scale because the resources that the server is providing is limited.
